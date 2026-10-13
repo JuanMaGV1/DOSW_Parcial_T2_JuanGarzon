@@ -33,10 +33,15 @@ Servicio base (scaffolding) para el parcial del segundo tercio de DOSW. Este rep
 
 ## 3. Despliegue
 
+Servicio desplegado en **Azure App Service** (región Mexico Central).
+
 | Recurso | URL |
 |---------|-----|
-| Health | `https://<nombre-app>.azurewebsites.net/api/v1/health` |
-| Swagger | `https://<nombre-app>.azurewebsites.net/swagger-ui/index.html` |
+| Health | https://dosw-parcial-juan-garzon-f4cjc5grbvgqb2ab.mexicocentral-01.azurewebsites.net/api/v1/health |
+| Swagger | https://dosw-parcial-juan-garzon-f4cjc5grbvgqb2ab.mexicocentral-01.azurewebsites.net/swagger-ui/index.html |
+| App Service | https://portal.azure.com/#@/resource/subscriptions/6ad317e9-c953-4bd4-80ae-f47dba1a7992/resourceGroups/rg-dosw-parcial-t2/providers/Microsoft.Web/sites/dosw-parcial-juan-garzon |
+| Docker Hub | https://hub.docker.com/r/juangv1/dosw-parcial-t2 |
+| GitHub Actions | https://github.com/juangv1/DOSW_Parcial_T2_JuanGarzon/actions |
 
 ---
 
